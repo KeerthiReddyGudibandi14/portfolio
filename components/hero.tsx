@@ -13,13 +13,13 @@ export function HeroSection() {
   }, [])
 
   return (
-    <section className="relative h-[85vh] min-h-[600px] bg-cover bg-center" style={{ backgroundImage: "url('/PortfolioWebsite/futuristic-ai-data-visualization-dark-cinematic.jpg')" }}>
+    <section className="relative h-[85vh] min-h-[600px] bg-cover bg-center" style={{ backgroundImage: "url('/futuristic-ai-data-visualization-dark-cinematic.jpg')" }}>
       <div className="absolute inset-0 bg-slate-950/70"></div>
       <div className={`relative z-10 flex h-full flex-col justify-center px-4 sm:px-6 lg:px-16 transition-all duration-1000 ${mounted ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
         <div className="max-w-2xl">
           <div className="mb-6 flex items-center gap-6">
             <div className="h-24 w-24 sm:h-32 sm:w-32 overflow-hidden rounded-full border-4 border-primary/50 shadow-lg shadow-primary/20">
-              <img src="/PortfolioWebsite/profile-picture.jpg" alt="Keerthi Reddy Gudibandi" className="w-full h-full object-cover object-top" />
+              <img src="/profile-picture.jpg" alt="Keerthi Reddy Gudibandi" className="w-full h-full object-cover object-top" />
             </div>
             <div>
               <p className="mb-1 text-sm font-medium tracking-widest text-primary uppercase">Portfolio</p>

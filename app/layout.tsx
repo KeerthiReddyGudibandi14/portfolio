@@ -29,7 +29,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       <body
         className="font-sans antialiased bg-background text-foreground"
         style={{
-          backgroundImage: `url('/PortfolioWebsite/hero-bg.jpg')`,
+          backgroundImage: `url('/hero-bg.jpg')`,
           backgroundSize: "cover",
           backgroundAttachment: "fixed",
           backgroundPosition: "center",

@@ -7,7 +7,7 @@ const projects = [
     id: 1,
     title: "RAG-Based Document Q&A Assistant",
     subtitle: "Full-Stack GenAI Document Q&A Application",
-    image: "/PortfolioWebsite/DocuQ AI.jpg",
+    image: "/DocuQ AI.jpg",
     description: [
       "Built a full-stack RAG application that allows users to upload documents, ask questions, and receive context-aware answers from the document.",
       "Implemented document processing, text chunking, local Hugging Face embeddings, ChromaDB vector search, and Groq LLM-based answer generation.",
@@ -20,7 +20,7 @@ const projects = [
     id: 2,
     title: "CLIP Image Search Engine",
     subtitle: "Computer Vision and Image Similarity Search",
-    image: "/PortfolioWebsite/CLIP-dog.jpg",
+    image: "/CLIP-dog.jpg",
     description: [
       "Built a full-stack image search engine that retrieves visually similar images using CLIP embeddings and FAISS vector search.",
       "Implemented image dataset upload, query image search, embedding generation, similarity ranking, and visual result display.",
@@ -33,7 +33,7 @@ const projects = [
     id: 3,
     title: "Reddit Engine",
     subtitle: "Actor-Based Distributed Backend System",
-    image: "/PortfolioWebsite/distributed-systems.jpg",
+    image: "/distributed-systems.jpg",
     description: [
       "Built a Reddit-like backend engine in Gleam on the Erlang VM using actor-based concurrency and distributed message passing.",
       "Implemented core platform features including users, subreddits, posts, comments, voting, direct messaging, and feed generation.",
@@ -46,7 +46,7 @@ const projects = [
     id: 4,
     title: "GATOR Air Traffic Slot Scheduler",
     subtitle: "Scheduling and Priority Queue Simulation",
-    image: "/PortfolioWebsite/Gator-Air.jpg",
+    image: "/Gator-Air.jpg",
     description: [
       "Built a air traffic scheduling system that assigns flights to available runways based on priority, submission time, and runway availability.",
       "Implemented custom Binary Min Heap and Pairing Heap data structures to manage runway availability, pending flights, ETA updates, cancellations, and reprioritization.",
@@ -59,7 +59,7 @@ const projects = [
     id: 5,
     title: "Smart Campus Services Platform",
     subtitle: "Full-Stack Campus Services Application",
-    image: "/PortfolioWebsite/business-intelligence-ai-dark.jpg",
+    image: "/business-intelligence-ai-dark.jpg",
     description: [
       "Built a full-stack campus services platform with role-based dashboards, booking workflows, staff approval/rejection flows, and user profile features.",
       "Implemented React frontend, Node.js/Express backend, SQLite database integration, REST APIs, and authentication-aware UI behavior.",

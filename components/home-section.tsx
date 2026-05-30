@@ -17,7 +17,7 @@ export function HomeSection() {
       id="home"
       className="relative px-4 sm:px-8 md:px-12 py-8 min-h-screen flex items-center"
       style={{
-        backgroundImage: `url('/PortfolioWebsite/hero-bg.jpg')`,
+        backgroundImage: `url('/hero-bg.jpg')`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
@@ -29,7 +29,7 @@ export function HomeSection() {
             <div className="relative">
               <div className="h-40 w-40 sm:h-48 sm:w-48 overflow-hidden rounded-full border-4 border-primary/50 shadow-lg shadow-primary/20">
                 <img
-                  src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/PortfolioWebsite/profile-picture.jpg`}
+                  src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/profile-picture.jpg`}
                   alt="Keerthi Reddy Gudibandi"
                   className="w-full h-full rounded-full object-cover"
                 />

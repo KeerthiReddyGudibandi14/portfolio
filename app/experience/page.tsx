@@ -9,7 +9,7 @@ const experience = [
     company: "Certi",
     location: "Remote – Gainesville, FL",
     period: "May 2026 - Present",
-    image: "/PortfolioWebsite/certitry.jpg",
+    image: "/certitry.jpg",
     sections: [
       {
         title: "Software Engineering Work",
@@ -38,7 +38,7 @@ const experience = [
     company: "Samisen Distributed Technologies",
     location: "Hyderabad, India",
     period: "July 2023 - January 2024",
-    image: "/PortfolioWebsite/Samisen.jpg",
+    image: "/Samisen.jpg",
     sections: [
       {
         title: "AI/ML Engineering Work",
@@ -65,7 +65,7 @@ const experience = [
     company: "Vellore Institute of Technology",
     location: "Andhra Pradesh, India",
     period: "August 2024 - May 2025",
-    image: "/PortfolioWebsite/Research.jpg",
+    image: "/Research.jpg",
     sections: [
       {
         title: "Research & Machine Learning Work",
