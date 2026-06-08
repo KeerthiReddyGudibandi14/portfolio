@@ -27,7 +27,7 @@ const publications = [
       "Comparative Analysis of Machine Learning Algorithm for Conversion Predictors of Clinically Isolated Syndrome (CIS) to Multiple Sclerosis (MS)",
     venue: "IEEE",
     researchGateUrl:
-      "https://www.researchgate.net/publication/401005177_Comparative_Analysis_of_Machine_Learning_Algorithm_for_Conversion_Predictors_of_Clinically_Isolated_Syndrome_CIS_to_Multiple_Sclerosis_MS",
+      "https://www.researchgate.net/publication/390254005_Comparative_Analysis_of_Machine_Learning_Algorithm_for_Conversion_Predictors_of_Clinically_Isolated_Syndrome_CIS_to_Multiple_Sclerosis_MS",
     description:
       "Built a healthcare AI research workflow to predict conversion from Clinically Isolated Syndrome (CIS) to Multiple Sclerosis (MS) using clinical and MRI-based datasets, with focus on model comparison, prediction accuracy, and ML-based clinical decision support.",
   },
