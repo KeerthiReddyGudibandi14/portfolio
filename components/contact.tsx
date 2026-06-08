@@ -18,7 +18,7 @@ export default function Contact() {
 
           <div>
             <p className="text-primary uppercase text-sm tracking-wider">Phone</p>
-            <p className="text-xl">+1 (352) 281-8615</p>
+            
           </div>
 
           <div>

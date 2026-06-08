@@ -3,33 +3,44 @@
 
 @custom-variant dark (&:is(.dark *));
 
-/* Keerthi portfolio theme: Navy + Electric Blue + White with Cyan highlights */
+/* Keerthi portfolio theme: Dark Navy + Electric Blue + Cyan */
 :root {
-  --background: oklch(0.11 0.035 265);
+  --background: oklch(0.09 0.03 265);
   --foreground: oklch(0.98 0.01 250);
-  --card: oklch(0.16 0.04 265);
+
+  --card: oklch(0.14 0.035 265);
   --card-foreground: oklch(0.98 0.01 250);
-  --popover: oklch(0.16 0.04 265);
+
+  --popover: oklch(0.14 0.035 265);
   --popover-foreground: oklch(0.98 0.01 250);
-  --primary: oklch(0.68 0.18 245);
+
+  --primary: oklch(0.72 0.19 245);
   --primary-foreground: oklch(1 0 0);
-  --secondary: oklch(0.22 0.045 265);
+
+  --secondary: oklch(0.2 0.04 265);
   --secondary-foreground: oklch(0.9 0.02 250);
-  --muted: oklch(0.24 0.035 265);
+
+  --muted: oklch(0.22 0.035 265);
   --muted-foreground: oklch(0.78 0.03 255);
+
   --accent: oklch(0.78 0.15 205);
   --accent-foreground: oklch(0.08 0.02 265);
+
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.98 0.01 250);
+
   --border: oklch(0.32 0.045 265);
   --input: oklch(0.32 0.045 265);
   --ring: oklch(0.78 0.15 205);
+
   --chart-1: oklch(0.68 0.18 245);
   --chart-2: oklch(0.78 0.15 205);
   --chart-3: oklch(0.72 0.12 275);
   --chart-4: oklch(0.82 0.12 180);
   --chart-5: oklch(0.75 0.16 230);
+
   --radius: 0.5rem;
+
   --sidebar: oklch(0.12 0.035 265);
   --sidebar-foreground: oklch(0.98 0.01 250);
   --sidebar-primary: oklch(0.68 0.18 245);
@@ -43,6 +54,7 @@
 @theme inline {
   --font-sans: "Bebas Neue", "Geist", "Geist Fallback";
   --font-mono: "Geist Mono", "Geist Mono Fallback";
+
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);
@@ -62,15 +74,18 @@
   --color-border: var(--border);
   --color-input: var(--input);
   --color-ring: var(--ring);
+
   --color-chart-1: var(--chart-1);
   --color-chart-2: var(--chart-2);
   --color-chart-3: var(--chart-3);
   --color-chart-4: var(--chart-4);
   --color-chart-5: var(--chart-5);
+
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
+
   --color-sidebar: var(--sidebar);
   --color-sidebar-foreground: var(--sidebar-foreground);
   --color-sidebar-primary: var(--sidebar-primary);
@@ -85,18 +100,30 @@
   * {
     @apply border-border outline-ring/50;
   }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
-    @apply bg-background text-foreground;
+    @apply text-foreground;
+    background:
+      radial-gradient(circle at top left, rgba(14, 165, 233, 0.18), transparent 32%),
+      radial-gradient(circle at top right, rgba(59, 130, 246, 0.12), transparent 35%),
+      linear-gradient(135deg, #020617 0%, #07111f 45%, #000000 100%);
+    min-height: 100vh;
   }
 }
 
 .hide-scrollbar::-webkit-scrollbar {
   display: none;
 }
+
 .hide-scrollbar {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
 .carousel-row {
   scroll-behavior: smooth;
 }

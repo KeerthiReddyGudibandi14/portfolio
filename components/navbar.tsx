@@ -19,10 +19,10 @@ export function Navbar() {
   const navLinks = [
     { href: "/", label: "Home" },
     { href: "/about", label: "About" },
-    { href: "/expertise", label: "Expertise" },
     { href: "/experience", label: "Experience" },
     { href: "/projects", label: "Projects" },
     { href: "/skills", label: "Skills" },
+    { href: "/publications", label: "Publications" },
     { href: "/contact", label: "Contact Me" },
   ]
 
@@ -35,7 +35,7 @@ export function Navbar() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <Link href="/" className="flex items-center gap-2">
-            <span className="text-2xl font-bold tracking-wider text-primary">K</span>
+            
             <span className="text-lg font-semibold tracking-wide text-foreground">KEERTHI</span>
           </Link>
 
