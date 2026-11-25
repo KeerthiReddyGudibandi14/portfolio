@@ -15,7 +15,7 @@ export function Footer() {
               <span className="text-xl font-semibold tracking-wide text-foreground">KEERTHI</span>
             </div>
             <p className="text-xm text-muted-foreground max-w-md leading-relaxed">
-              Software Engineer building practical AI/ML and full-stack systems across backend APIs, GenAI, LLMs, computer vision, and scalable applications.
+              Machine Learning Engineer building computer vision, NLP, RAG, and LLM applications with rigorous evaluation and practical APIs.
             </p>
             <p className="text-xm text-muted-foreground mt-2">
               United States • kgudibandi@ufl.edu 

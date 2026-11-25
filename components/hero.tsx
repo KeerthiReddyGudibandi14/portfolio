@@ -88,7 +88,7 @@ export function HeroSection() {
           
 
           <p className="mb-8 max-w-2xl text-lg leading-relaxed text-slate-400">
-            I build reliable software systems at the intersection of backend engineering, full-stack development, and AI/ML, with work across GenAI, computer vision, LLM applications, and scalable product workflows. I’m currently a Computer Science graduate student at the University of Florida.
+            I design and build machine learning systems that turn complex data and model research into practical applications. My work spans computer vision, NLP, and LLMs - from training and fine-tuning models to building RAG and agentic workflows, optimizing inference, and deploying reliable AI services.
           </p>
 
           <div className="mb-8 flex flex-wrap gap-4">

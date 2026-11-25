@@ -10,15 +10,15 @@ export function AboutSection() {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
         <div className="lg:col-span-2 bg-card border border-border rounded-lg p-6 hover:border-primary/50 transition-colors">
           <p className="text-muted-foreground text-lg leading-relaxed mb-4">
-            I'm a software engineer with experience building full-stack applications, backend APIs, AI/ML systems, and GenAI-powered tools. My work combines software engineering with applied machine learning, including projects in visual search, RAG-based document question answering, distributed backend systems, and full-stack platform development.
+            I’m a Machine Learning Engineer who enjoys the full process of building an AI system, from preparing data and training models to understanding their errors and putting them to work. At the University of Florida, I develop veterinary X-ray classification and abnormality detection models, with particular attention to patient-disjoint evaluation and reproducible experiments. I also build retrieval and LLM agent workflows that bring imaging predictions together with relevant references, so findings can be reviewed in context.
           </p>
 
           <p className="text-muted-foreground text-lg leading-relaxed mb-4">
-            I enjoy building practical software systems that combine strong engineering foundations with intelligent, data-driven features. I have hands-on experience with Python, Java, FastAPI, React, REST APIs, PyTorch, TensorFlow, Scikit-learn, databases, and backend workflows. My projects reflect my interest in creating reliable, scalable, and user-focused software across full-stack development, AI/ML, GenAI, visual search, and distributed systems.
+            My experience extends across computer vision, NLP, and open-source LLMs. I’ve built Python and PyTorch training pipelines, developed FastAPI services for support workflows, and worked with RAG systems that retrieve evidence for generated answers. When evaluating LLMs, I look at more than response quality: I benchmark latency, throughput, and GPU memory use, and test approaches such as quantization to understand the trade-offs involved in serving a model.
           </p>
 
           <p className="text-muted-foreground text-lg leading-relaxed">
-            I have also contributed to AI/ML research with publications in areas such as healthcare AI, neurological disease progression, clinical data analysis, maritime vessel detection, and computer vision. These experiences have helped me strengthen both my research mindset and my ability to translate models into working software systems. I’m currently a Computer Science graduate student at the University of Florida.
+            Research has shaped how I approach engineering. My published work on neurological disease progression and maritime vessel detection required careful model comparison, error analysis, and clear reporting of results. I bring that same discipline to application development. I want to know where a system succeeds, where it fails, and what it takes to make its output dependable for the people using it.
           </p>
         </div>
 
@@ -65,7 +65,7 @@ export function AboutSection() {
               </div>
               <h3 className="font-semibold text-foreground text-lg">Focus</h3>
             </div>
-            <p className="text-muted-foreground text-lg">SOFTWARE ENGINEERING, AI/ML, GENAI, LLMs, COMPUTER VISION, BACKEND SYSTEMS, SCALABLE APIs</p>
+            <p className="text-muted-foreground text-lg">MODEL TRAINING, COMPUTER VISION, NLP, GENERATIVE AI, RAG, LLM INFERENCE, AI AGENTS</p>
             
           </div>
         </div>

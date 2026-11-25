@@ -6,36 +6,32 @@ import { Button } from "@/components/ui/button"
 
 const skillCategories = [
   {
-    title: "Programming & Development",
-    skills: ["Python", "Java", "C++", "C", "SQL", "JavaScript", "TypeScript", "Git", "Linux", "Debugging"],
+    title: "Languages & Data",
+    skills: ["Python", "Rust", "SQL", "Pandas", "NumPy", "Data Preprocessing", "ETL"],
   },
   {
-    title: "AI/ML & Deep Learning",
-    skills: ["Machine Learning", "Deep Learning", "PyTorch", "TensorFlow", "Scikit-learn", "XGBoost", "Model Evaluation", "Feature Engineering"],
+    title: "Machine Learning",
+    skills: ["PyTorch", "scikit-learn", "XGBoost", "model training", "fine-tuning", "cross-validation", "hyperparameter optimization"],
   },
   {
     title: "Computer Vision",
-    skills: ["YOLO", "Object Detection", "OpenCV", "Satellite Imagery", "MASATI-V2", "Remote Sensing", "mAP", "Image Processing"],
+    skills: ["ResNet", "YOLO26", "YOLOv10", "OpenCV", "pydicom", "CLAHE", "object detection"],
   },
   {
-    title: "NLP, LLMs & RAG",
-    skills: ["NLP", "LLMs", "RAG", "Embeddings", "Vector Search", "Prompt Engineering", "LangChain", "Hugging Face"],
+    title: "LLMs & Agents",
+    skills: ["Hugging Face Transformers", "BERT", "Mistral 7B", "Llama 3.1 8B", "agentic workflows", "tool calling", "AI evaluation"],
   },
   {
-    title: "Backend & APIs",
-    skills: ["FastAPI", "Flask", "Node.js", "Express", "REST APIs", "Microservices", "Authentication", "API Integration"],
+    title: "RAG & Retrieval",
+    skills: ["RAG", "embeddings", "semantic search", "FAISS", "ChromaDB", "context filtering", "retrieval evaluation"],
   },
   {
-    title: "Data & Databases",
-    skills: ["Pandas", "NumPy", "PostgreSQL", "MySQL", "MongoDB", "SQLite", "FAISS", "Chroma", "Data Validation"],
+    title: "Inference & Optimization",
+    skills: ["vLLM", "open-source LLM serving", "4-bit quantization", "batching", "latency and throughput benchmarking", "GPU memory analysis"],
   },
   {
-    title: "Cloud & DevOps",
-    skills: ["AWS", "Docker", "Kubernetes", "GitHub Actions", "CI/CD", "Vercel", "Monitoring", "Deployment"],
-  },
-  {
-    title: "Research & Evaluation",
-    skills: ["Accuracy", "Precision", "Recall", "F1-score", "Experiment Design", "Comparative Analysis", "Healthcare AI", "Publication Writing"],
+    title: "Deployment & MLOps",
+    skills: ["FastAPI", "REST APIs", "Docker", "Celery", "Redis", "MLflow", "ClearML", "CI/CD"],
   },
 ]
 
